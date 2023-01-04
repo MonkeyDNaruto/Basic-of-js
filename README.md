@@ -5,3 +5,4 @@
 2. Comment
 3. Variables
 4. Operators
+5. Data Types
