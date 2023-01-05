@@ -7,3 +7,4 @@
 4. Operators
 5. Data Types
 6. Function
+7. Object
