@@ -8,3 +8,4 @@
 5. Data Types
 6. Function
 7. Object
+8. Event
