@@ -9,3 +9,4 @@
 6. Function
 7. Object
 8. Event
+9. String Methods

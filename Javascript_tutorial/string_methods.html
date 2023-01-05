@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String</title>
+</head>
+<body>
+    <h1>String Methods</h1>
+    <ul>    
+        
+        
+        
+        
+
+        <li>String length</li>
+        <li>String slice()</li>
+        <li>String substring()</li>
+        <li>String substr()</li>
+        <li>String replace()</li>
+        <li>String replaceAll()</li>
+        <li>String toUpperCase()</li>
+        <li>String toLowerCase()</li>
+        <li>String concat()</li>
+        <li>String trim()</li>
+        <li>String trimStart()</li>
+        <li>String trimEnd()</li>
+        <li>String padStart()</li>
+        <li>String padEnd()</li>
+        <li>String charAt()</li>
+        <li>String charCodeAt()</li>
+        <li>String split()</li>
+    </ul>
+
+ 
+    <p>
+        <h2>JavaScript String Length</h2>
+            <div>
+                The length property returns the length of a string:
+            </div>
+            <div>
+                <h3>Example</h3>
+                <div id="demo1"></div>
+            </div>
+    </p>
+    <p>
+        <p>
+            <h2>Extracting String Parts</h2>
+            <div>
+                There are 3 methods for extracting a part of a string:
+                <ul>
+                    <li>slice(start, end)</li>
+                    <li>substring(start, end)</li>
+                    <li>substr(start, length)</li>
+                </ul>
+            </div>
+        </p>
+    </p>
+    <script>
+        // string length
+        var text = "gdthhyyvbwyeb8cy89ypv8y8v"
+        var length = text.length;
+        document.getElementById("demo1").innerHTML = length
+        // slice()
+        var fruits = "Apple, Banana, Orange"
+        var takeOut = fruits.slice(7, 13);
+        console.log(takeOut)
+        //substring() same as slice() but it can't take negative number.
+        /* substr() same as slice but the second parameter specifies the length of extracted part
+           here i will extracted apple */
+        var apple = fruits.substr(0, 5);
+        console.log(apple)
+
+        //Replacing String Content
+        //The replace() method replaces a specified value with another value in a string:
+        var replaceApple = fruits.replace("Apple", "Mango")
+        console.log(replaceApple)
+    </script>
+    
+</body>
+</html>
