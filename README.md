@@ -10,3 +10,5 @@
 7. Object
 8. Event
 9. String Methods
+10. String Templates
+11. BigInt
