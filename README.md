@@ -13,3 +13,4 @@
 10. String Templates
 11. BigInt
 12. Number Methods
+13. Number Properties

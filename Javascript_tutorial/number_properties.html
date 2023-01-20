@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Properties</title>
+</head>
+<body>
+    <h1>JavaScript Number Properties</h1>
+    <div>
+        <table class="ws-table-all notranslate">
+            <tr>
+              <th style="width:25%">Property</th>
+              <th>Description</th>
+            </tr>
+            <tr>
+              <td>EPSILON</td>
+              <td>The difference between 1 and the smallest JS number.</td>
+            </tr>
+            <tr>
+              <td>MAX_VALUE</td>
+              <td>The largest number possible in JavaScript</td>
+            </tr>
+            <tr>
+              <td>MIN_VALUE</td>
+              <td>The smallest number possible in JavaScript</td>
+            </tr>
+            <tr>
+              <td>MAX_SAFE_INTEGER</td>
+              <td>The maximum safe integer (2<sup>53</sup> - 1)</td>
+            </tr>
+            <tr>
+              <td>MIN_SAFE_INTEGER</td>
+              <td>The minimum safe integer -(2<sup>53</sup> - 1)</td>
+            </tr>
+            <tr>
+              <td>POSITIVE_INFINITY</td>
+              <td>Infinity (returned on overflow)</td>
+            </tr>
+            <tr>
+              <td>NEGATIVE_INFINITY</td>
+              <td>Negative infinity (returned on overflow)</td>
+              </tr>
+            <tr>
+              <td>NaN</td>
+              <td>A "Not-a-Number" value</td>
+              </tr>
+          </table>
+    </div>
+    
+    <script>
+        let a = Number.EPSILON;
+        console.log(a);
+        let b = Number.MAX_VALUE;
+        console.log(b);
+        let c = Number.MIN_VALUE;
+        console.log(c);
+        let d = Number.MAX_SAFE_INTEGER;
+        console.log(d);
+        let e = Number.MIN_SAFE_INTEGER;
+        console.log(e);
+        let f = Number.POSITIVE_INFINITY;
+        console.log(f);
+        let g = Number.NEGATIVE_INFINITY;
+        console.log(g);
+        let h = Number.NaN;
+        console.log(h);
+    </script>
+</body>
+</html>
