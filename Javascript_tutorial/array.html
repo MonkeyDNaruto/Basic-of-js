@@ -10,9 +10,29 @@
     <h1>JavaScript Array</h1>
     <p id="demo"></p>
 
+    <p>
+        <h3>Adding Array Elements</h3>
+        <div>The easiest way to add a new element to an array is using the push() method:</div>
+        <div id="demo1"></div>
+    </p>
+
+    <p>
+        <h3>How to recognize array</h3>
+        <div>To reconize use Array.isArray(array_name)</div>
+        <div id="demo2"></div>
+    </p>
+
     <script>
         var peoples = ["Nischal", "Nishuka", "Namrata"];
         document.getElementById("demo").innerHTML = peoples;
+
+        // Adding element in array
+        peoples.push("Sarmila");
+        document.getElementById("demo1").innerHTML = peoples
+
+        // How to eecognize array
+        document.getElementById("demo2").innerHTML = Array.isArray(peoples)
+        
     </script>
     
 </body>
