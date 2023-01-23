@@ -15,3 +15,4 @@
 12. Number Methods
 13. Number Properties
 14. Array
+15. Array Methods

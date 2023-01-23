@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Methods</title>
+</head>
+<body>
+    <h1>JavaScript Array Methods</h1>
+    <p>
+        <h3>Converting Arrays to Strings</h3>
+        <p> The JavaScript method toString() converts an array to a string of (comma separated) array values.</p>
+        <div id="demo1"></div>
+    </p>
+    <p>
+        <h3>Popping and Pushing</h3>
+        <p>When you work with arrays, it is easy to remove elements and add new elements.
+            
+            This is what popping and pushing is:
+            
+            Popping items out of an array, or pushing items into an array.
+        </p>
+            <div id="demo2"></div>
+            <div id="demo3"></div>
+    </p>
+    <p>
+        <h3>JavaScript Array shift()</h3>
+        <p>The shift() method removes the first array element and "shifts" all other elements to a lower index.</p>
+        <div id="demo4"></div>
+    </p>
+    <p>
+        <h3>JavaScript Array unshift()</h3>
+        <p>The unshift() method adds a new element to an array (at the beginning), and "unshifts" older elements:</p>
+        <div id="demo5"></div>
+    </p>
+    <p>
+        <h3>Merging (Concatenating) Arrays</h3>
+        <p>The concat() method creates a new array by merging (concatenating) existing arrays:</p>
+        <p>This is num1:
+            <div id="demo6"></div>
+        </p>
+        <p>This is num2: 
+            <div id="demo7"></div>
+        </p>
+        <p>This is num1 +  num2: 
+            <div id="demo8"></div>
+        </p>
+    </p>
+
+    <script>
+        //Converting array into string
+        var fruits = ["Banana", "Apple", "Orange"];
+        document.getElementById("demo1").innerHTML = fruits.toString();
+
+        // Popping and pushing
+        document.getElementById("demo2").innerHTML = fruits.pop("Orange");
+        document.getElementById("demo3").innerHTML = fruits.push("Mango");
+        document.getElementById("demo3").innerHTML = fruits;
+
+        // Shifting and unshifting
+        document.getElementById("demo4").innerHTML = fruits.shift();
+        document.getElementById("demo4").innerHTML = fruits;
+        document.getElementById("demo5").innerHTML = fruits.unshift("Strawberry");
+        document.getElementById("demo5").innerHTML = fruits;
+
+        // Concating array
+        var num1 = ["One ", "Two ", "Three "]
+        document.getElementById("demo6").innerHTML = num1;
+        var num2 = ["Four ", "Five ", "Six"]
+        document.getElementById("demo7").innerHTML = num2;
+        var num = num1.concat(num2);
+        document.getElementById("demo8").innerHTML = num;
+
+
+    </script>
+    
+</body>
+</html>
