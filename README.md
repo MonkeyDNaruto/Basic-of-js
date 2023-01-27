@@ -19,3 +19,4 @@
 16. Date
 17. Math
 18. Random
+19. Boolean
