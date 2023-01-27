@@ -18,3 +18,4 @@
 15. Array Methods
 16. Date
 17. Math
+18. Random
