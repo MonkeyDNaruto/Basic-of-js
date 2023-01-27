@@ -16,3 +16,4 @@
 13. Number Properties
 14. Array
 15. Array Methods
+16. Date
