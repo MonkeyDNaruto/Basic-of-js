@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math</title>
+</head>
+<body>
+    <p>
+        <h1>JavaScript Math Object</h1>
+        The JavaScript Math object allows you to perform mathematical tasks on numbers.
+    </p>
+    <p>
+        <h3>The Math Object</h3>
+        Unlike other objects, the Math object has no constructor.
+        The Math object is static.
+        All methods and properties can be used without creating a Math object first.
+    </p>
+    <p>
+        <h3>Math Properties (Constants)</h3>
+        The syntax for any Math property is : Math.property.
+            
+        JavaScript provides 8 mathematical constants that can be accessed as Math properties:
+        <div>
+            Example:
+            <ul>
+                <li>Math.E        // returns Euler's number</li>
+                <li>Math.PI       // returns PI</li>
+                <li>Math.SQRT2    // returns the square root of 2</li>
+                <li>Math.SQRT1_2  // returns the square root of 1/2</li>
+                <li>Math.LN2      // returns the natural logarithm of 2</li>
+                <li>Math.LN10     // returns the natural logarithm of 10</li>
+                <li>Math.LOG2E    // returns base 2 logarithm of E</li>
+                <li>Math.LOG10E   // returns base 10 logarithm of E</li>
+            </ul>
+            <div id="demo"></div>
+        </div>
+    </p>
+
+    <script>
+        var pi = Math.PI;
+        document.getElementById("demo").innerHTML = `Example: ${pi} `;
+    </script>
+    
+</body>
+</html>
