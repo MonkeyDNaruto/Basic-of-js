@@ -23,3 +23,4 @@
 20. If Else
 21. Switch
 22. For Loop
+23. While Loop
