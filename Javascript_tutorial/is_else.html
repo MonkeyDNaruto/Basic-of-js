@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>If Else </title>
+</head>
+<body>
+    <h1>JavaScript If Else Statement</h1>
+    <p>
+        <div id="demo"></div>
+    </p>
+    
+    <script>
+        var x = prompt("Enter a number?");
+        if(x < 100) {
+            document.getElementById("demo").innerHTML = `Enter number is less than 100`;
+        } else if(x > 100 && x < 1000) {
+            document.getElementById("demo").innerHTML = `Enter number is more than 100 but less than 1000`;
+        } else {
+            document.getElementById("demo").innerHTML = `Enter number is more than 10000`;
+        }
+    </script>
+</body>
+</html>
