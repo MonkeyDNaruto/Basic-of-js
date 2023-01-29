@@ -24,3 +24,4 @@
 21. Switch
 22. For Loop
 23. While Loop
+24. Arrow Function
