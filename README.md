@@ -25,3 +25,4 @@
 22. For Loop
 23. While Loop
 24. Arrow Function
+25. Class
